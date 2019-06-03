@@ -14,7 +14,7 @@ def main():
         print "expected one argument, check --help for additional information "
     """
     
-    op = Operation("input.csv")################ args.csv
+    op = Operation("input.csv")################ must be arg.csv
     csv_reader = op.read_csv()
     
     op.extract_web_data(csv_reader)
